@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Database1ModelContainer" CdmEntityContainer="Database1Entities1">
+    <EntitySetMapping Name="Dolgnosti">
+      <EntityTypeMapping TypeName="Database1Model.Dolgnosti">
+        <MappingFragment StoreEntitySet="Dolgnosti">
+          <ScalarProperty Name="IdDolgnost" ColumnName="IdDolgnost" />
+          <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+          <ScalarProperty Name="Oklad" ColumnName="Oklad" />
+          <ScalarProperty Name="Opysanie" ColumnName="Opysanie" />
+          <ScalarProperty Name="OtdelId" ColumnName="OtdelId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Otdeli">
+      <EntityTypeMapping TypeName="Database1Model.Otdeli">
+        <MappingFragment StoreEntitySet="Otdeli">
+          <ScalarProperty Name="IdOtdel" ColumnName="IdOtdel" />
+          <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+          <ScalarProperty Name="Rukovoditel" ColumnName="Rukovoditel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Otpuska">
+      <EntityTypeMapping TypeName="Database1Model.Otpuska">
+        <MappingFragment StoreEntitySet="Otpuska">
+          <ScalarProperty Name="IdOtpuska" ColumnName="IdOtpuska" />
+          <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
+          <ScalarProperty Name="DataNachalaOtpuska" ColumnName="DataNachalaOtpuska" />
+          <ScalarProperty Name="DataOkonchaniyaOtpuska" ColumnName="DataOkonchaniyaOtpuska" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RavocheeVremya">
+      <EntityTypeMapping TypeName="Database1Model.RavocheeVremya">
+        <MappingFragment StoreEntitySet="RavocheeVremya">
+          <ScalarProperty Name="IdStatus" ColumnName="IdStatus" />
+          <ScalarProperty Name="IdRabocheeVremya" ColumnName="IdRabocheeVremya" />
+          <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="VremyaHachalaRab" ColumnName="VremyaHachalaRab" />
+          <ScalarProperty Name="VremyaOkonchaniyaRab" ColumnName="VremyaOkonchaniyaRab" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sotrudniki">
+      <EntityTypeMapping TypeName="Database1Model.Sotrudniki">
+        <MappingFragment StoreEntitySet="Sotrudniki">
+          <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
+          <ScalarProperty Name="Familia" ColumnName="Familia" />
+          <ScalarProperty Name="Imya" ColumnName="Imya" />
+          <ScalarProperty Name="IdDolgnost" ColumnName="IdDolgnost" />
+          <ScalarProperty Name="DataPriem" ColumnName="DataPriem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="Database1Model.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="NameSt" ColumnName="NameSt" />
+          <ScalarProperty Name="IdStatus" ColumnName="IdStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e2dc068f42e84a939706c468a8c2bcfa" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="Database1Model.Dolgnosti" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Otdeli" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Otpuska" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.RavocheeVremya" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Sotrudniki" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.FK__Dolgnosti__Otdel__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Sotrudnik__IdDol__1332DBDC" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Otpuska__IdSotr__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__RavocheeV__IdSot__29221CFB" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Database1Model.Status" Width="1.5" PointX="4" PointY="5.875" />
+        <AssociationConnector Association="Database1Model.FK__RavocheeV__IdSta__3F115E1A" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

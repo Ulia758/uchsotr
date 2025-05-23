@@ -1,0 +1,115 @@
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\Database1.mdf
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\Database1_log.ldf
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\PractikaaProizv.exe.config
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\PractikaaProizv.exe
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\PractikaaProizv.pdb
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\EntityFramework.dll
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\EntityFramework.xml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.csproj.AssemblyReference.cache
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\MainWindow.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\App.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv_Content.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv_MarkupCompile.cache
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv_MarkupCompile.lref
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\MainWindow.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.g.resources
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.Properties.Resources.resources
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.csproj.GenerateResource.cache
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.csproj.CoreCompileInputs.cache
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\Practika.FABB8761.Up2Date
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.exe
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.pdb
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\AddOtdeli.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\AddOtpuska.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\AddPosechaemost.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\AddSotrudniki.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\AddZarplati.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\Filtraciya.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\MainPage.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\OtdeliPage.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\OtpuskaPage.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PosechaemostPage.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\SotrudnikiPage.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\Zapros.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\ZarplatiPage.g.cs
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\AddOtdeli.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\AddOtpuska.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\AddPosechaemost.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\AddSotrudniki.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\AddZarplati.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\Filtraciya.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\MainPage.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\OtdeliPage.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\OtpuskaPage.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\PosechaemostPage.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\SotrudnikiPage.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\Zapros.baml
+C:\Users\uliak\source\repos\PractikaaProizv\PractikaaProizv\obj\Debug\ZarplatiPage.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\Database1.mdf
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\Database1_log.ldf
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\PractikaaProizv.exe.config
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\PractikaaProizv.exe
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\PractikaaProizv.pdb
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\EntityFramework.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\EntityFramework.xml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.csproj.AssemblyReference.cache
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\AddOtdeli.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\AddOtpuska.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\AddPosechaemost.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\AddSotrudniki.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\MainPage.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\MainWindow.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\OtdeliPage.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\OtpuskaPage.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PosechaemostPage.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\SotrudnikiPage.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\Zapros.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\App.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv_Content.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv_MarkupCompile.cache
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv_MarkupCompile.lref
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\AddOtdeli.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\AddOtpuska.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\AddPosechaemost.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\AddSotrudniki.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\MainPage.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\MainWindow.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\OtdeliPage.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\OtpuskaPage.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PosechaemostPage.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\SotrudnikiPage.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\Zapros.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.g.resources
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.Properties.Resources.resources
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.csproj.GenerateResource.cache
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.csproj.CoreCompileInputs.cache
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\Practika.FABB8761.Up2Date
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.exe
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\PractikaaProizv.pdb
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\AddDolgnosti.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\DolgnostiPage.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\AddDolgnosti.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\DolgnostiPage.baml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.Buffers.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.Memory.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.Buffers.xml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.Memory.xml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\OtchetiPage.g.cs
+C:\Users\uliak\Desktop\Передереев ПП\PractikaaProizv\PractikaaProizv\PractikaaProizv\obj\Debug\OtchetiPage.baml

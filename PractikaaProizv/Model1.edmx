@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище Database1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Dolgnosti">
+          <Key>
+            <PropertyRef Name="IdDolgnost" />
+          </Key>
+          <Property Name="IdDolgnost" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nazvanie" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Oklad" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Opysanie" Type="nvarchar" MaxLength="255" />
+          <Property Name="OtdelId" Type="int" />
+        </EntityType>
+        <EntityType Name="Otdeli">
+          <Key>
+            <PropertyRef Name="IdOtdel" />
+          </Key>
+          <Property Name="IdOtdel" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nazvanie" Type="nvarchar" MaxLength="50" />
+          <Property Name="Rukovoditel" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Otpuska">
+          <Key>
+            <PropertyRef Name="IdOtpuska" />
+          </Key>
+          <Property Name="IdOtpuska" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdSotr" Type="int" />
+          <Property Name="DataNachalaOtpuska" Type="date" />
+          <Property Name="DataOkonchaniyaOtpuska" Type="date" />
+        </EntityType>
+        <EntityType Name="RavocheeVremya">
+          <Key>
+            <PropertyRef Name="IdRabocheeVremya" />
+          </Key>
+          <Property Name="IdRabocheeVremya" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdSotr" Type="int" />
+          <Property Name="Data" Type="date" />
+          <Property Name="IdStatus" Type="int" />
+          <Property Name="VremyaHachalaRab" Type="time" Precision="7" />
+          <Property Name="VremyaOkonchaniyaRab" Type="time" Precision="7" />
+        </EntityType>
+        <EntityType Name="Sotrudniki">
+          <Key>
+            <PropertyRef Name="IdSotr" />
+          </Key>
+          <Property Name="IdSotr" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Familia" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Imya" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="IdDolgnost" Type="int" />
+          <Property Name="DataPriem" Type="date" />
+        </EntityType>
+        <EntityType Name="Status">
+          <Key>
+            <PropertyRef Name="IdStatus" />
+          </Key>
+          <Property Name="IdStatus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameSt" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Dolgnosti__Otdel__14270015">
+          <End Role="Otdeli" Type="Self.Otdeli" Multiplicity="0..1" />
+          <End Role="Dolgnosti" Type="Self.Dolgnosti" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Otdeli">
+              <PropertyRef Name="IdOtdel" />
+            </Principal>
+            <Dependent Role="Dolgnosti">
+              <PropertyRef Name="OtdelId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Otpuska__IdSotr__0B91BA14">
+          <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="0..1" />
+          <End Role="Otpuska" Type="Self.Otpuska" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sotrudniki">
+              <PropertyRef Name="IdSotr" />
+            </Principal>
+            <Dependent Role="Otpuska">
+              <PropertyRef Name="IdSotr" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__RavocheeV__IdSot__3C34F16F">
+          <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="0..1" />
+          <End Role="RavocheeVremya" Type="Self.RavocheeVremya" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sotrudniki">
+              <PropertyRef Name="IdSotr" />
+            </Principal>
+            <Dependent Role="RavocheeVremya">
+              <PropertyRef Name="IdSotr" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__RavocheeV__IdSta__3F115E1A">
+          <End Role="Status" Type="Self.Status" Multiplicity="0..1" />
+          <End Role="RavocheeVremya" Type="Self.RavocheeVremya" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Status">
+              <PropertyRef Name="IdStatus" />
+            </Principal>
+            <Dependent Role="RavocheeVremya">
+              <PropertyRef Name="IdStatus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Sotrudnik__IdDol__1332DBDC">
+          <End Role="Dolgnosti" Type="Self.Dolgnosti" Multiplicity="0..1" />
+          <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dolgnosti">
+              <PropertyRef Name="IdDolgnost" />
+            </Principal>
+            <Dependent Role="Sotrudniki">
+              <PropertyRef Name="IdDolgnost" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище Database1ModelContainer">
+          <EntitySet Name="Dolgnosti" EntityType="Self.Dolgnosti" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Otdeli" EntityType="Self.Otdeli" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Otpuska" EntityType="Self.Otpuska" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RavocheeVremya" EntityType="Self.RavocheeVremya" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sotrudniki" EntityType="Self.Sotrudniki" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Dolgnosti__Otdel__14270015" Association="Self.FK__Dolgnosti__Otdel__14270015">
+            <End Role="Otdeli" EntitySet="Otdeli" />
+            <End Role="Dolgnosti" EntitySet="Dolgnosti" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Otpuska__IdSotr__0B91BA14" Association="Self.FK__Otpuska__IdSotr__0B91BA14">
+            <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+            <End Role="Otpuska" EntitySet="Otpuska" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RavocheeV__IdSot__3C34F16F" Association="Self.FK__RavocheeV__IdSot__3C34F16F">
+            <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+            <End Role="RavocheeVremya" EntitySet="RavocheeVremya" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RavocheeV__IdSta__3F115E1A" Association="Self.FK__RavocheeV__IdSta__3F115E1A">
+            <End Role="Status" EntitySet="Status" />
+            <End Role="RavocheeVremya" EntitySet="RavocheeVremya" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Sotrudnik__IdDol__1332DBDC" Association="Self.FK__Sotrudnik__IdDol__1332DBDC">
+            <End Role="Dolgnosti" EntitySet="Dolgnosti" />
+            <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Dolgnosti">
+          <Key>
+            <PropertyRef Name="IdDolgnost" />
+          </Key>
+          <Property Name="IdDolgnost" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nazvanie" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Oklad" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Opysanie" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="OtdelId" Type="Int32" />
+          <NavigationProperty Name="Otdeli" Relationship="Self.FK__Dolgnosti__Otdel__14270015" FromRole="Dolgnosti" ToRole="Otdeli" />
+          <NavigationProperty Name="Sotrudniki" Relationship="Self.FK__Sotrudnik__IdDol__1332DBDC" FromRole="Dolgnosti" ToRole="Sotrudniki" />
+        </EntityType>
+        <EntityType Name="Otdeli">
+          <Key>
+            <PropertyRef Name="IdOtdel" />
+          </Key>
+          <Property Name="IdOtdel" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nazvanie" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Rukovoditel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Dolgnosti" Relationship="Self.FK__Dolgnosti__Otdel__14270015" FromRole="Otdeli" ToRole="Dolgnosti" />
+        </EntityType>
+        <EntityType Name="Otpuska">
+          <Key>
+            <PropertyRef Name="IdOtpuska" />
+          </Key>
+          <Property Name="IdOtpuska" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdSotr" Type="Int32" />
+          <Property Name="DataNachalaOtpuska" Type="DateTime" Precision="0" />
+          <Property Name="DataOkonchaniyaOtpuska" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="Sotrudniki" Relationship="Self.FK__Otpuska__IdSotr__0B91BA14" FromRole="Otpuska" ToRole="Sotrudniki" />
+        </EntityType>
+        <EntityType Name="RavocheeVremya">
+          <Key>
+            <PropertyRef Name="IdRabocheeVremya" />
+          </Key>
+          <Property Name="IdRabocheeVremya" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdSotr" Type="Int32" />
+          <Property Name="Data" Type="DateTime" Precision="0" />
+          <Property Name="VremyaHachalaRab" Type="Time" Precision="7" />
+          <Property Name="VremyaOkonchaniyaRab" Type="Time" Precision="7" />
+          <NavigationProperty Name="Sotrudniki" Relationship="Self.FK__RavocheeV__IdSot__29221CFB" FromRole="RavocheeVremya" ToRole="Sotrudniki" />
+          <Property Name="IdStatus" Type="Int32" />
+          <NavigationProperty Name="Status" Relationship="Database1Model.FK__RavocheeV__IdSta__3F115E1A" FromRole="RavocheeVremya" ToRole="Status" />
+        </EntityType>
+        <EntityType Name="Sotrudniki">
+          <Key>
+            <PropertyRef Name="IdSotr" />
+          </Key>
+          <Property Name="IdSotr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Familia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Imya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="IdDolgnost" Type="Int32" />
+          <Property Name="DataPriem" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="Dolgnosti" Relationship="Self.FK__Sotrudnik__IdDol__1332DBDC" FromRole="Sotrudniki" ToRole="Dolgnosti" />
+          <NavigationProperty Name="Otpuska" Relationship="Self.FK__Otpuska__IdSotr__0B91BA14" FromRole="Sotrudniki" ToRole="Otpuska" />
+          <NavigationProperty Name="RavocheeVremya" Relationship="Self.FK__RavocheeV__IdSot__29221CFB" FromRole="Sotrudniki" ToRole="RavocheeVremya" />
+        </EntityType>
+        <Association Name="FK__Dolgnosti__Otdel__14270015">
+          <End Role="Otdeli" Type="Self.Otdeli" Multiplicity="0..1" />
+          <End Role="Dolgnosti" Type="Self.Dolgnosti" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Otdeli">
+              <PropertyRef Name="IdOtdel" />
+            </Principal>
+            <Dependent Role="Dolgnosti">
+              <PropertyRef Name="OtdelId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Sotrudnik__IdDol__1332DBDC">
+          <End Role="Dolgnosti" Type="Self.Dolgnosti" Multiplicity="0..1" />
+          <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dolgnosti">
+              <PropertyRef Name="IdDolgnost" />
+            </Principal>
+            <Dependent Role="Sotrudniki">
+              <PropertyRef Name="IdDolgnost" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Otpuska__IdSotr__0B91BA14">
+          <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="0..1" />
+          <End Role="Otpuska" Type="Self.Otpuska" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sotrudniki">
+              <PropertyRef Name="IdSotr" />
+            </Principal>
+            <Dependent Role="Otpuska">
+              <PropertyRef Name="IdSotr" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__RavocheeV__IdSot__29221CFB">
+          <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="0..1" />
+          <End Role="RavocheeVremya" Type="Self.RavocheeVremya" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sotrudniki">
+              <PropertyRef Name="IdSotr" />
+            </Principal>
+            <Dependent Role="RavocheeVremya">
+              <PropertyRef Name="IdSotr" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Database1Entities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Dolgnosti" EntityType="Self.Dolgnosti" />
+          <EntitySet Name="Otdeli" EntityType="Self.Otdeli" />
+          <EntitySet Name="Otpuska" EntityType="Self.Otpuska" />
+          <EntitySet Name="RavocheeVremya" EntityType="Self.RavocheeVremya" />
+          <EntitySet Name="Sotrudniki" EntityType="Self.Sotrudniki" />
+          <AssociationSet Name="FK__Dolgnosti__Otdel__14270015" Association="Self.FK__Dolgnosti__Otdel__14270015">
+            <End Role="Otdeli" EntitySet="Otdeli" />
+            <End Role="Dolgnosti" EntitySet="Dolgnosti" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Sotrudnik__IdDol__1332DBDC" Association="Self.FK__Sotrudnik__IdDol__1332DBDC">
+            <End Role="Dolgnosti" EntitySet="Dolgnosti" />
+            <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Otpuska__IdSotr__0B91BA14" Association="Self.FK__Otpuska__IdSotr__0B91BA14">
+            <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+            <End Role="Otpuska" EntitySet="Otpuska" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RavocheeV__IdSot__29221CFB" Association="Self.FK__RavocheeV__IdSot__29221CFB">
+            <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+            <End Role="RavocheeVremya" EntitySet="RavocheeVremya" />
+          </AssociationSet>
+          <EntitySet Name="Status" EntityType="Database1Model.Status" />
+          <AssociationSet Name="FK__RavocheeV__IdSta__3F115E1A" Association="Database1Model.FK__RavocheeV__IdSta__3F115E1A">
+            <End Role="Status" EntitySet="Status" />
+            <End Role="RavocheeVremya" EntitySet="RavocheeVremya" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Status">
+          <Key>
+            <PropertyRef Name="IdStatus" />
+          </Key>
+          <Property Name="IdStatus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameSt" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="RavocheeVremya" Relationship="Database1Model.FK__RavocheeV__IdSta__3F115E1A" FromRole="Status" ToRole="RavocheeVremya" />
+        </EntityType>
+        <Association Name="FK__RavocheeV__IdSta__3F115E1A">
+          <End Type="Database1Model.Status" Role="Status" Multiplicity="0..1" />
+          <End Type="Database1Model.RavocheeVremya" Role="RavocheeVremya" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Status">
+              <PropertyRef Name="IdStatus" />
+            </Principal>
+            <Dependent Role="RavocheeVremya">
+              <PropertyRef Name="IdStatus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Database1ModelContainer" CdmEntityContainer="Database1Entities1">
+          <EntitySetMapping Name="Dolgnosti">
+            <EntityTypeMapping TypeName="Database1Model.Dolgnosti">
+              <MappingFragment StoreEntitySet="Dolgnosti">
+                <ScalarProperty Name="IdDolgnost" ColumnName="IdDolgnost" />
+                <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+                <ScalarProperty Name="Oklad" ColumnName="Oklad" />
+                <ScalarProperty Name="Opysanie" ColumnName="Opysanie" />
+                <ScalarProperty Name="OtdelId" ColumnName="OtdelId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Otdeli">
+            <EntityTypeMapping TypeName="Database1Model.Otdeli">
+              <MappingFragment StoreEntitySet="Otdeli">
+                <ScalarProperty Name="IdOtdel" ColumnName="IdOtdel" />
+                <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+                <ScalarProperty Name="Rukovoditel" ColumnName="Rukovoditel" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Otpuska">
+            <EntityTypeMapping TypeName="Database1Model.Otpuska">
+              <MappingFragment StoreEntitySet="Otpuska">
+                <ScalarProperty Name="IdOtpuska" ColumnName="IdOtpuska" />
+                <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
+                <ScalarProperty Name="DataNachalaOtpuska" ColumnName="DataNachalaOtpuska" />
+                <ScalarProperty Name="DataOkonchaniyaOtpuska" ColumnName="DataOkonchaniyaOtpuska" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RavocheeVremya">
+            <EntityTypeMapping TypeName="Database1Model.RavocheeVremya">
+              <MappingFragment StoreEntitySet="RavocheeVremya">
+                <ScalarProperty Name="IdStatus" ColumnName="IdStatus" />
+                <ScalarProperty Name="IdRabocheeVremya" ColumnName="IdRabocheeVremya" />
+                <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="VremyaHachalaRab" ColumnName="VremyaHachalaRab" />
+                <ScalarProperty Name="VremyaOkonchaniyaRab" ColumnName="VremyaOkonchaniyaRab" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sotrudniki">
+            <EntityTypeMapping TypeName="Database1Model.Sotrudniki">
+              <MappingFragment StoreEntitySet="Sotrudniki">
+                <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
+                <ScalarProperty Name="Familia" ColumnName="Familia" />
+                <ScalarProperty Name="Imya" ColumnName="Imya" />
+                <ScalarProperty Name="IdDolgnost" ColumnName="IdDolgnost" />
+                <ScalarProperty Name="DataPriem" ColumnName="DataPriem" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Status">
+            <EntityTypeMapping TypeName="Database1Model.Status">
+              <MappingFragment StoreEntitySet="Status">
+                <ScalarProperty Name="NameSt" ColumnName="NameSt" />
+                <ScalarProperty Name="IdStatus" ColumnName="IdStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
