@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Хранилище Database1ModelContainer" CdmEntityContainer="Database1Entities1">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Database1ModelContainer" CdmEntityContainer="Database1Entities">
     <EntitySetMapping Name="Dolgnosti">
       <EntityTypeMapping TypeName="Database1Model.Dolgnosti">
         <MappingFragment StoreEntitySet="Dolgnosti">
           <ScalarProperty Name="IdDolgnost" ColumnName="IdDolgnost" />
           <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
-          <ScalarProperty Name="Oklad" ColumnName="Oklad" />
-          <ScalarProperty Name="Opysanie" ColumnName="Opysanie" />
           <ScalarProperty Name="OtdelId" ColumnName="OtdelId" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -17,7 +15,6 @@
         <MappingFragment StoreEntitySet="Otdeli">
           <ScalarProperty Name="IdOtdel" ColumnName="IdOtdel" />
           <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
-          <ScalarProperty Name="Rukovoditel" ColumnName="Rukovoditel" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -31,15 +28,37 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="PovishemieKvalific">
+      <EntityTypeMapping TypeName="Database1Model.PovishemieKvalific">
+        <MappingFragment StoreEntitySet="PovishemieKvalific">
+          <ScalarProperty Name="IdPov" ColumnName="IdPov" />
+          <ScalarProperty Name="DatePov" ColumnName="DatePov" />
+          <ScalarProperty Name="Kvalifkaciya" ColumnName="Kvalifkaciya" />
+          <ScalarProperty Name="Kurs" ColumnName="Kurs" />
+          <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
+          <ScalarProperty Name="Sertificat" ColumnName="Sertificat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="RavocheeVremya">
       <EntityTypeMapping TypeName="Database1Model.RavocheeVremya">
         <MappingFragment StoreEntitySet="RavocheeVremya">
-          <ScalarProperty Name="IdStatus" ColumnName="IdStatus" />
           <ScalarProperty Name="IdRabocheeVremya" ColumnName="IdRabocheeVremya" />
           <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
           <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="IdStatus" ColumnName="IdStatus" />
           <ScalarProperty Name="VremyaHachalaRab" ColumnName="VremyaHachalaRab" />
           <ScalarProperty Name="VremyaOkonchaniyaRab" ColumnName="VremyaOkonchaniyaRab" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SchtatnoeRaspisanie">
+      <EntityTypeMapping TypeName="Database1Model.SchtatnoeRaspisanie">
+        <MappingFragment StoreEntitySet="SchtatnoeRaspisanie">
+          <ScalarProperty Name="IdRasp" ColumnName="IdRasp" />
+          <ScalarProperty Name="IdDolgnost" ColumnName="IdDolgnost" />
+          <ScalarProperty Name="Oklad" ColumnName="Oklad" />
+          <ScalarProperty Name="KolvoStavok" ColumnName="KolvoStavok" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -49,16 +68,41 @@
           <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
           <ScalarProperty Name="Familia" ColumnName="Familia" />
           <ScalarProperty Name="Imya" ColumnName="Imya" />
+          <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="Passport" ColumnName="Passport" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Invalidnost" ColumnName="Invalidnost" />
+          <ScalarProperty Name="Education" ColumnName="Education" />
           <ScalarProperty Name="IdDolgnost" ColumnName="IdDolgnost" />
-          <ScalarProperty Name="DataPriem" ColumnName="DataPriem" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Status">
       <EntityTypeMapping TypeName="Database1Model.Status">
         <MappingFragment StoreEntitySet="Status">
-          <ScalarProperty Name="NameSt" ColumnName="NameSt" />
           <ScalarProperty Name="IdStatus" ColumnName="IdStatus" />
+          <ScalarProperty Name="NameSt" ColumnName="NameSt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Uvolnenie">
+      <EntityTypeMapping TypeName="Database1Model.Uvolnenie">
+        <MappingFragment StoreEntitySet="Uvolnenie">
+          <ScalarProperty Name="IdUvoln" ColumnName="IdUvoln" />
+          <ScalarProperty Name="DateUvoln" ColumnName="DateUvoln" />
+          <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
+          <ScalarProperty Name="Prichina" ColumnName="Prichina" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zachislenie">
+      <EntityTypeMapping TypeName="Database1Model.Zachislenie">
+        <MappingFragment StoreEntitySet="Zachislenie">
+          <ScalarProperty Name="IdZachisl" ColumnName="IdZachisl" />
+          <ScalarProperty Name="DateZach" ColumnName="DateZach" />
+          <ScalarProperty Name="IdSotr" ColumnName="IdSotr" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

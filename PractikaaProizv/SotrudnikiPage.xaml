@@ -40,24 +40,30 @@
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 28 0 0">
             <Button x:Name="Add" Content="Добавить" Click="Add_Click"/>
-            <Button x:Name="Delete" Content="Удалить" Click="Delete_Click"/>
             <Button x:Name="ReportBtn" Content="Отчет по отделам" Click="ReportBtn_Click"/>
             <Button x:Name="Nazad" Content="Назад" Click="Nazad_Click"/>
         </StackPanel>
         <DataGrid x:Name="SotrDG" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalContentAlignment="Stretch" AutoGenerateColumns="False" IsReadOnly="True" CanUserResizeRows="False" BorderThickness="1" BorderBrush="Gray" CanUserSortColumns="True" SelectionMode="Single" SelectedItem="{Binding Path=SelectedAttendance, Mode=TwoWay}"
               AlternatingRowBackground="SeaShell" RowBackground="WhiteSmoke" Margin="10">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Код сотрудника" Binding="{Binding IdSotr}" Width="70"/>
+                <DataGridTextColumn Header="Код сотрудника" Binding="{Binding IdSotr}" Width="Auto"/>
                 <DataGridTextColumn Header="Фамилия" Binding="{Binding Familia}" Width="120"/>
                 <DataGridTextColumn Header="Имя" Binding="{Binding Imya}" Width="120"/>
-                <DataGridTextColumn Header="Отдел" Binding="{Binding Dolgnosti.Otdeli.Nazvanie}" Width="120"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding Otchestvo}" Width="120"/>
+                <DataGridTextColumn Header="Адрес" Binding="{Binding Adress}" Width="120"/>
+                <DataGridTextColumn Header="Паспорт" Binding="{Binding Passport}" Width="120"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Phone}" Width="120"/>
+                <DataGridTextColumn Header="Пол" Binding="{Binding Gender}" Width="120"/>
+                <DataGridTextColumn Header="Инвалидность" Binding="{Binding Invalidnost}" Width="120"/>
+                <DataGridTextColumn Header="Образование" Binding="{Binding Education}" Width="120"/>
                 <DataGridTextColumn Header="Должность" Binding="{Binding Dolgnosti.Nazvanie}" Width="120"/>
-                <DataGridTextColumn Header="Дата приёма" Binding="{Binding DataPriem, StringFormat=\{0:dd.MM.yyyy\}}" Width="120"/>
-                <DataGridTextColumn Header="Оклад" Binding="{Binding Dolgnosti.Oklad}" Width="120"/>
                 <DataGridTemplateColumn Header="Действия" MinWidth="100">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <Button x:Name="EditBtn" Content="Изменить" CommandParameter="{Binding}" Click="EditBtn_Click" Background="#FFBCC9FC" Foreground="#DD000000" Margin="5"/>
+                            <StackPanel Orientation="Horizontal">
+                                <Button x:Name="EditBtn" Content="Изменить" CommandParameter="{Binding}" Click="EditBtn_Click" Background="#FFBCC9FC" Foreground="#DD000000" Margin="5"/>
+                                <Button x:Name="FireBtn" Content="Уволить" CommandParameter="{Binding}" Click="Fire_Click" Background="#FFAAABBA" Foreground="#DD000000" Margin="5"/>
+                            </StackPanel>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>

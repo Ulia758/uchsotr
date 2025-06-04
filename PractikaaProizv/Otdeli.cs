@@ -22,7 +22,6 @@ namespace PractikaaProizv
     
         public int IdOtdel { get; set; }
         public string Nazvanie { get; set; }
-        public string Rukovoditel { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Dolgnosti> Dolgnosti { get; set; }

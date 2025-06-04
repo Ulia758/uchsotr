@@ -17,7 +17,7 @@
             <TextBlock Text="Должности" FontSize="24" FontWeight="Bold" Foreground="Black" Margin="0,0,10,0"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,40,10,0">
-            <TextBox Name="Poisk" Text="Поиск" Height="30" Width="200" Margin="10" TextChanged="Poisk_TextChanged"/>
+            <TextBox Name="Poisk" Text="Поиск по названию" Height="30" Width="200" Margin="10" TextChanged="Poisk_TextChanged"/>
             <Button x:Name="Add" Content="Добавить" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="Add_Click"/>
             <Button x:Name="Delete" Content="Удалить" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="Delete_Click"/>
             <Button x:Name="Nazad" Content="Назад" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="Nazad_Click"/>
@@ -28,8 +28,7 @@
                 <DataGridTextColumn Header="Код должности" Binding="{Binding IdDolgnost}" Width="100"/>
                 <DataGridTextColumn Header="Название" Binding="{Binding Nazvanie}" Width="200"/>
                 <DataGridTextColumn Header="Отдел" Binding="{Binding Otdeli.Nazvanie}" Width="200"/>
-                <DataGridTextColumn Header="Оклад" Binding="{Binding Oklad}" Width="100"/>
-                <DataGridTextColumn Header="Описание" Binding="{Binding Opysanie}" Width="*"/>
+                <DataGridTextColumn Header="Оклад" Binding="{Binding SchtatnoeRaspisanie.Oklad}" Width="100"/>
                 <DataGridTemplateColumn Header="Действия" MinWidth="100">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>

@@ -37,7 +37,7 @@
             <Button x:Name="Add" Content="Добавить" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="Add_Click"/>
             <Button x:Name="Delete" Content="Удалить" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="Delete_Click"/>
             <Button x:Name="Zapros" Content="Запрос" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="Zapros_Click"/>
-            <Button x:Name="CreateReport" Content="Сформировать отчет" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="CreateReport_Click"/>
+            <Button x:Name="CreateReport" Content="Отчёт" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="CreateReport_Click"/>
             <Button x:Name="Nazad" Content="Назад" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="Nazad_Click"/>
         </StackPanel>
     </Grid>

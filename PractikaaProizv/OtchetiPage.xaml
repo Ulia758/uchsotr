@@ -17,9 +17,11 @@
             <Image Source="/45721f645eae1eb788fb070e9c9ef619.png" DockPanel.Dock="Right" Width="60" Height="60" Margin="10" Stretch="Uniform"/>
         </DockPanel>
         <StackPanel Grid.Row="1" Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Name="Otchet1" Content="Отчёт о сотрудниках по отделам" Width="320" Margin="10" Background="#FFCEA9F1" Foreground="White" FontSize="20" Height="44" Click="Otchet1_Click"/>
-            <Button Name="Otchet2" Content="Отчёт сведений о посещениях" Width="320" Margin="10" Background="#FFCEA9F1" Foreground="White" FontSize="20" Height="44" Click="Otchet2_Click"/>
-            <Button Name="Otchet3" Content="Отчёт сведений по отпускам" Width="320" Margin="10" Background="#FFCEA9F1" Foreground="White" FontSize="20" Height="44" Click="Otchet3_Click"/>
+            <Button Name="Otchet1" Content="Сотрудники по отделам" Width="320" Margin="10" Background="#FFCEA9F1" Foreground="White" FontSize="20" Height="44" Click="Otchet1_Click"/>
+            <Button Name="Otchet2" Content="Сведения о посещениях" Width="320" Margin="10" Background="#FFCEA9F1" Foreground="White" FontSize="20" Height="44" Click="Otchet2_Click"/>
+            <Button Name="Otchet3" Content="Сведения по отпускам" Width="320" Margin="10" Background="#FFCEA9F1" Foreground="White" FontSize="20" Height="44" Click="Otchet3_Click"/>
+            <Button Name="Otchet4" Content="Сотрудники" Width="320" Margin="10" Background="#FFCEA9F1" Foreground="White" FontSize="20" Height="44" Click="Otchet4_Click"/>
+            <Button Name="Otchet5" Content="Подсчёт ставок" Width="320" Margin="10" Background="#FFCEA9F1" Foreground="White" FontSize="20" Height="44" Click="Otchet5_Click"/>
             <Button Name="BackBtn" Content="Назад" Width="320" Margin="10 50 10 10" Background="#FFCEA9F1" Foreground="Black" FontSize="20" Height="44" Click="BackBtn_Click" />
         </StackPanel>
     </Grid>

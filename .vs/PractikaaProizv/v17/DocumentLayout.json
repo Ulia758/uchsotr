@@ -3,36 +3,147 @@
   "WorkspaceRootPath": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|c:\\users\\uliak\\desktop\\\u043F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u043F\u043F\\practikaaproizv\\practikaaproizv\\practikaaproizv\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\uvolnpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\uvolnpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\zachislpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\zachislpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\sotrudnikipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\sotrudnikipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\zachislpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\zachislpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addsotrudniki.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addsotrudniki.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addsotrudniki.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addsotrudniki.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\sotrudnikipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\sotrudnikipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\adduvoln.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\adduvoln.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addpovkval.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addpovkval.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\uvolnpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\uvolnpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\schtatrasppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\schtatrasppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\povkvalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\povkvalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\schtatrasppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\schtatrasppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\dolgnostipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\dolgnostipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addzachisl.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addzachisl.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\adduvoln.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\adduvoln.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addschtatrasp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addschtatrasp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addschtatrasp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addschtatrasp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addzachisl.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addzachisl.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addpovkval.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addpovkval.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addposechaemost.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addposechaemost.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addotpuska.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addotpuska.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addposechaemost.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addposechaemost.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|c:\\users\\uliak\\desktop\\\u043F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u043F\u043F\\practikaaproizv\\practikaaproizv\\practikaaproizv\\sotrudnikipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\sotrudnikipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addotpuska.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addotpuska.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\posechaemostpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\posechaemostpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\otpuskapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\otpuskapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\povkvalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\povkvalpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\otdelipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\otdelipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\dolgnostipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\dolgnostipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ULIAK_DESKTOP_\u041F\u0415\u0420\u0415\u0414\u0415\u0420\u0415\u0415\u0412_\u041F\u041F_PRACTIKAAPROIZV_PRACTIKAAPROIZV_PRACTIKAAPROIZV_DATABASE1.MDF/True/SqlTable/dbo.Zachislenie.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\posechaemostpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\posechaemostpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\otdelipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\otdelipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\otpuskapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\otpuskapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\otchetipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\otchetipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\dolgnostipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\dolgnostipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\zapros.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -41,10 +152,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +166,6 @@
       "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addsotrudniki.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addsotrudniki.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\practikaaproizv\\addsotrudniki.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73A0796D-0637-4D33-93C4-524B64E5A1DC}|PractikaaProizv\\PractikaaProizv.csproj|solutionrelative:practikaaproizv\\addsotrudniki.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\obj\\Debug\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PractikaaProizv\\obj\\Debug\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -78,23 +177,323 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ZachislPage.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\ZachislPage.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\ZachislPage.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\ZachislPage.xaml",
+              "RelativeToolTip": "PractikaaProizv\\ZachislPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T12:19:14.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ZachislPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\ZachislPage.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\ZachislPage.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\ZachislPage.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\ZachislPage.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAlwDkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:38:24.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UvolnPage.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\UvolnPage.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\UvolnPage.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\UvolnPage.xaml",
+              "RelativeToolTip": "PractikaaProizv\\UvolnPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T12:18:57.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Model1.edmx",
+              "RelativeDocumentMoniker": "PractikaaProizv\\Model1.edmx",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "PractikaaProizv\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-06-02T13:42:21.981Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddSotrudniki.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSotrudniki.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddSotrudniki.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSotrudniki.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\AddSotrudniki.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:41:36.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SotrudnikiPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\SotrudnikiPage.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\SotrudnikiPage.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\SotrudnikiPage.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\SotrudnikiPage.xaml.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAqwDoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:37:15.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddSotrudniki.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSotrudniki.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddSotrudniki.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSotrudniki.xaml",
+              "RelativeToolTip": "PractikaaProizv\\AddSotrudniki.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T17:37:38.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SotrudnikiPage.xaml",
               "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\SotrudnikiPage.xaml",
               "RelativeDocumentMoniker": "PractikaaProizv\\SotrudnikiPage.xaml",
               "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\SotrudnikiPage.xaml",
               "RelativeToolTip": "PractikaaProizv\\SotrudnikiPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T17:40:22.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T17:40:22.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Connect.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Connect.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\Connect.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Connect.cs",
+              "RelativeToolTip": "PractikaaProizv\\Connect.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:41:32.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PovKvalPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\PovKvalPage.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\PovKvalPage.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\PovKvalPage.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\PovKvalPage.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwCQAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:38:02.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddPovKval.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPovKval.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddPovKval.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPovKval.xaml",
+              "RelativeToolTip": "PractikaaProizv\\AddPovKval.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T12:39:00.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UvolnPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\UvolnPage.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\UvolnPage.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\UvolnPage.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\UvolnPage.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwCQAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:38:19.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SchtatRaspPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\SchtatRaspPage.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\SchtatRaspPage.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\SchtatRaspPage.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\SchtatRaspPage.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAYwBwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:38:13.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddUvoln.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddUvoln.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddUvoln.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddUvoln.xaml",
+              "RelativeToolTip": "PractikaaProizv\\AddUvoln.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T12:39:48.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SchtatRaspPage.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\SchtatRaspPage.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\SchtatRaspPage.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\SchtatRaspPage.xaml",
+              "RelativeToolTip": "PractikaaProizv\\SchtatRaspPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T12:18:36.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DolgnostiPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\DolgnostiPage.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\DolgnostiPage.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\DolgnostiPage.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\DolgnostiPage.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAACzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:22:34.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddZachisl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddZachisl.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddZachisl.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddZachisl.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\AddZachisl.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwCIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:19:15.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddUvoln.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddUvoln.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddUvoln.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddUvoln.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\AddUvoln.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:18:04.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddSchtatRasp.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSchtatRasp.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddSchtatRasp.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSchtatRasp.xaml",
+              "RelativeToolTip": "PractikaaProizv\\AddSchtatRasp.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T12:39:24.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddSchtatRasp.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSchtatRasp.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddSchtatRasp.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSchtatRasp.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\AddSchtatRasp.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:11:38.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddZachisl.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddZachisl.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddZachisl.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddZachisl.xaml",
+              "RelativeToolTip": "PractikaaProizv\\AddZachisl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T12:40:05.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddPovKval.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPovKval.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddPovKval.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPovKval.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\AddPovKval.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:05:43.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddPosechaemost.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPosechaemost.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddPosechaemost.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPosechaemost.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\AddPosechaemost.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwB0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:45:53.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddOtpuska.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddOtpuska.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddOtpuska.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddOtpuska.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\AddOtpuska.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:05:50.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddPosechaemost.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPosechaemost.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddPosechaemost.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPosechaemost.xaml",
+              "RelativeToolTip": "PractikaaProizv\\AddPosechaemost.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T17:45:49.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddOtpuska.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddOtpuska.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\AddOtpuska.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddOtpuska.xaml",
+              "RelativeToolTip": "PractikaaProizv\\AddOtpuska.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T12:57:54.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PovKvalPage.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\PovKvalPage.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\PovKvalPage.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\PovKvalPage.xaml",
+              "RelativeToolTip": "PractikaaProizv\\PovKvalPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T12:17:48.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "OtdeliPage.xaml",
               "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\OtdeliPage.xaml",
               "RelativeDocumentMoniker": "PractikaaProizv\\OtdeliPage.xaml",
@@ -105,58 +504,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DolgnostiPage.xaml",
-              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\DolgnostiPage.xaml",
-              "RelativeDocumentMoniker": "PractikaaProizv\\DolgnostiPage.xaml",
-              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\DolgnostiPage.xaml",
-              "RelativeToolTip": "PractikaaProizv\\DolgnostiPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T18:07:46.876Z"
+              "DocumentIndex": 28,
+              "Title": "dbo.Zachislenie [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ULIAK_DESKTOP_\u041F\u0415\u0420\u0415\u0414\u0415\u0420\u0415\u0415\u0412_\u041F\u041F_PRACTIKAAPROIZV_PRACTIKAAPROIZV_PRACTIKAAPROIZV_DATABASE1.MDF/True/SqlTable/dbo.Zachislenie.sql",
+              "ToolTip": "dbo.Zachislenie [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-02T12:45:44.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddPosechaemost.xaml",
-              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPosechaemost.xaml",
-              "RelativeDocumentMoniker": "PractikaaProizv\\AddPosechaemost.xaml",
-              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPosechaemost.xaml",
-              "RelativeToolTip": "PractikaaProizv\\AddPosechaemost.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T17:45:49.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddPosechaemost.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPosechaemost.xaml.cs",
-              "RelativeDocumentMoniker": "PractikaaProizv\\AddPosechaemost.xaml.cs",
-              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddPosechaemost.xaml.cs*",
-              "RelativeToolTip": "PractikaaProizv\\AddPosechaemost.xaml.cs*",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAQwE0AAAAAAAAA",
+              "DocumentIndex": 30,
+              "Title": "OtdeliPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\OtdeliPage.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\OtdeliPage.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\OtdeliPage.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\OtdeliPage.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAEIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T17:45:53.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "WhenOpened": "2025-06-02T12:37:41.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OtpuskaPage.xaml",
-              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\OtpuskaPage.xaml",
-              "RelativeDocumentMoniker": "PractikaaProizv\\OtpuskaPage.xaml",
-              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\OtpuskaPage.xaml",
-              "RelativeToolTip": "PractikaaProizv\\OtpuskaPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T18:08:42.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 29,
               "Title": "PosechaemostPage.xaml",
               "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\PosechaemostPage.xaml",
               "RelativeDocumentMoniker": "PractikaaProizv\\PosechaemostPage.xaml",
@@ -167,65 +536,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 32,
+              "Title": "OtchetiPage.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\OtchetiPage.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\OtchetiPage.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\OtchetiPage.xaml",
+              "RelativeToolTip": "PractikaaProizv\\OtchetiPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T20:48:07.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OtpuskaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\OtpuskaPage.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\OtpuskaPage.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\OtpuskaPage.xaml",
+              "RelativeToolTip": "PractikaaProizv\\OtpuskaPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T18:08:42.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\MainPage.xaml.cs",
+              "RelativeToolTip": "PractikaaProizv\\MainPage.xaml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAEcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:19:56.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\MainPage.xaml",
               "RelativeDocumentMoniker": "PractikaaProizv\\MainPage.xaml",
               "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\MainPage.xaml",
               "RelativeToolTip": "PractikaaProizv\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T18:09:03.85Z"
+              "WhenOpened": "2025-05-30T21:31:55.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Zapros.xaml",
-              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Zapros.xaml",
-              "RelativeDocumentMoniker": "PractikaaProizv\\Zapros.xaml",
-              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Zapros.xaml",
-              "RelativeToolTip": "PractikaaProizv\\Zapros.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T18:08:56.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Settings.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Properties\\Settings.Designer.cs",
-              "RelativeDocumentMoniker": "PractikaaProizv\\Properties\\Settings.Designer.cs",
-              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Properties\\Settings.Designer.cs",
-              "RelativeToolTip": "PractikaaProizv\\Properties\\Settings.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T17:44:12.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "PractikaaProizv\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "PractikaaProizv\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T17:43:54.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Properties\\Resources.Designer.cs",
-              "RelativeDocumentMoniker": "PractikaaProizv\\Properties\\Resources.Designer.cs",
-              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Properties\\Resources.Designer.cs",
-              "RelativeToolTip": "PractikaaProizv\\Properties\\Resources.Designer.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAuwBgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T17:43:47.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 41,
               "Title": "App.g.i.cs",
               "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\obj\\Debug\\App.g.i.cs",
               "RelativeDocumentMoniker": "PractikaaProizv\\obj\\Debug\\App.g.i.cs",
@@ -237,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 40,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\App.config",
               "RelativeDocumentMoniker": "PractikaaProizv\\App.config",
@@ -245,11 +601,12 @@
               "RelativeToolTip": "PractikaaProizv\\App.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-22T17:42:58.232Z"
+              "WhenOpened": "2025-05-22T17:42:58.232Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 39,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\App.xaml.cs",
               "RelativeDocumentMoniker": "PractikaaProizv\\App.xaml.cs",
@@ -261,26 +618,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AddSotrudniki.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSotrudniki.xaml.cs",
-              "RelativeDocumentMoniker": "PractikaaProizv\\AddSotrudniki.xaml.cs",
-              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSotrudniki.xaml.cs",
-              "RelativeToolTip": "PractikaaProizv\\AddSotrudniki.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T17:41:36.253Z"
+              "DocumentIndex": 35,
+              "Title": "DolgnostiPage.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\DolgnostiPage.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\DolgnostiPage.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\DolgnostiPage.xaml",
+              "RelativeToolTip": "PractikaaProizv\\DolgnostiPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T18:07:46.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AddSotrudniki.xaml",
-              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSotrudniki.xaml",
-              "RelativeDocumentMoniker": "PractikaaProizv\\AddSotrudniki.xaml",
-              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\AddSotrudniki.xaml",
-              "RelativeToolTip": "PractikaaProizv\\AddSotrudniki.xaml",
+              "DocumentIndex": 36,
+              "Title": "Zapros.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Zapros.xaml",
+              "RelativeDocumentMoniker": "PractikaaProizv\\Zapros.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Zapros.xaml",
+              "RelativeToolTip": "PractikaaProizv\\Zapros.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T17:37:38.012Z"
+              "WhenOpened": "2025-05-22T18:08:56.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\Properties\\Settings.Designer.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "PractikaaProizv\\Properties\\Settings.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:44:12.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "PractikaaProizv\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\\u041F\u0435\u0440\u0435\u0434\u0435\u0440\u0435\u0435\u0432 \u041F\u041F\\PractikaaProizv\\PractikaaProizv\\PractikaaProizv\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "PractikaaProizv\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:43:54.216Z"
             }
           ]
         }

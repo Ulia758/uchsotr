@@ -25,12 +25,14 @@ namespace PractikaaProizv
         public AddDolgnosti(Dolgnosti c)
         {
             InitializeComponent();
+            OtdComboBox.ItemsSource = Connect.context.Otdeli.ToList();
             if (c == null)
                 c = new Dolgnosti();
             DataContext = k = c;
         }
         private void Save_Click(object sender, RoutedEventArgs e)
         {
+
             if (k.IdDolgnost == 0)
             {
                 Connect.context.Dolgnosti.Add(k);

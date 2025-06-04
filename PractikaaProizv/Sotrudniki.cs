@@ -18,19 +18,46 @@ namespace PractikaaProizv
         public Sotrudniki()
         {
             this.Otpuska = new HashSet<Otpuska>();
+            this.Otpuska1 = new HashSet<Otpuska>();
+            this.PovishemieKvalific = new HashSet<PovishemieKvalific>();
+            this.PovishemieKvalific1 = new HashSet<PovishemieKvalific>();
             this.RavocheeVremya = new HashSet<RavocheeVremya>();
+            this.Uvolnenie = new HashSet<Uvolnenie>();
+            this.Zachislenie = new HashSet<Zachislenie>();
+            this.Uvolnenie1 = new HashSet<Uvolnenie>();
+            this.Zachislenie1 = new HashSet<Zachislenie>();
         }
     
         public int IdSotr { get; set; }
         public string Familia { get; set; }
         public string Imya { get; set; }
-        public Nullable<int> IdDolgnost { get; set; }
-        public Nullable<System.DateTime> DataPriem { get; set; }
+        public string Otchestvo { get; set; }
+        public string Adress { get; set; }
+        public string Passport { get; set; }
+        public string Phone { get; set; }
+        public string Gender { get; set; }
+        public string Invalidnost { get; set; }
+        public string Education { get; set; }
+        public int IdDolgnost { get; set; }
     
         public virtual Dolgnosti Dolgnosti { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Otpuska> Otpuska { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Otpuska> Otpuska1 { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<PovishemieKvalific> PovishemieKvalific { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<PovishemieKvalific> PovishemieKvalific1 { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<RavocheeVremya> RavocheeVremya { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Uvolnenie> Uvolnenie { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Zachislenie> Zachislenie { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Uvolnenie> Uvolnenie1 { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Zachislenie> Zachislenie1 { get; set; }
     }
 }

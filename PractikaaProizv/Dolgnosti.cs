@@ -17,16 +17,17 @@ namespace PractikaaProizv
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Dolgnosti()
         {
+            this.SchtatnoeRaspisanie = new HashSet<SchtatnoeRaspisanie>();
             this.Sotrudniki = new HashSet<Sotrudniki>();
         }
     
         public int IdDolgnost { get; set; }
         public string Nazvanie { get; set; }
-        public decimal Oklad { get; set; }
-        public string Opysanie { get; set; }
         public Nullable<int> OtdelId { get; set; }
     
         public virtual Otdeli Otdeli { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<SchtatnoeRaspisanie> SchtatnoeRaspisanie { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Sotrudniki> Sotrudniki { get; set; }
     }

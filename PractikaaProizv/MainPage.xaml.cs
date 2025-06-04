@@ -51,5 +51,25 @@ namespace PractikaaProizv
         {
             Nav.MainFrame.Navigate(new OtchetiPage());
         }
+
+        private void KvalificaciyaBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Nav.MainFrame.Navigate(new PovKvalPage());
+        }
+
+        private void RaspisanieBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Nav.MainFrame.Navigate(new SchtatRaspPage());
+        }
+
+        private void UvolnenieBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Nav.MainFrame.Navigate(new UvolnPage());
+        }
+
+        private void ZachislenieBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Nav.MainFrame.Navigate(new ZachislPage());
+        }
     }
 }

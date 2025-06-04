@@ -25,11 +25,11 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="Код сотрудника:" FontSize="18" FontStyle="Italic" FontWeight="Regular" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
-            <TextBox Text="{Binding IdSotr}" FontSize="18" Height="30" Background="White" Foreground="#DD000000" Width="300" Grid.Row="0" Grid.Column="1" Margin="10"/>
+            <ComboBox x:Name="SotrComboBox"  DisplayMemberPath="Familia" SelectedItem="{Binding Sotrudniki}" FontSize="18" Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="0" Grid.Column="1" Margin="10"/>
             <TextBlock Text="Дата начала:" FontSize="18" FontStyle="Italic" FontWeight="Regular" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
-            <DatePicker SelectedDate="{Binding DataNachalaOtpuska, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, StringFormat={}{0:dd.MM.yyyy}}" FontSize="18" Height="30" Grid.Row="1" Background="White" Foreground="#DD000000" Width="300" Grid.Column="1" Margin="10"/>
+            <DatePicker SelectedDate="{Binding DataNachalaOtpuska, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, StringFormat={}{0:dd.MM.yyyy}}" FontSize="18" Height="30" Grid.Row="1" Background="White" Foreground="#DD000000" Width="400" Grid.Column="1" Margin="10"/>
             <TextBlock Text="Дата окончания:" FontSize="18" FontStyle="Italic" FontWeight="Regular" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center"/>
-            <DatePicker SelectedDate="{Binding DataOkonchaniyaOtpuska, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, StringFormat={}{0:dd.MM.yyyy}}" FontSize="18" Height="30" Grid.Row="2" Background="White" Foreground="#DD000000" Width="300" Grid.Column="1" Margin="10"/>
+            <DatePicker SelectedDate="{Binding DataOkonchaniyaOtpuska, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, StringFormat={}{0:dd.MM.yyyy}}" FontSize="18" Height="30" Grid.Row="2" Background="White" Foreground="#DD000000" Width="400" Grid.Column="1" Margin="10"/>
         </Grid>
         <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" Margin="10">
             <Button x:Name="Save" Content="Сохранить" Margin="5"  FontSize="16"  Height="30" Width="150" Background="#FFE4E2FF" Foreground="#DD000000" Click="Save_Click"/>

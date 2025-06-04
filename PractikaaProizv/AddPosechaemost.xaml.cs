@@ -28,13 +28,10 @@ namespace PractikaaProizv
         {
             InitializeComponent();
             StatusComboBox.ItemsSource = Connect.context.Status.ToList();
-
-            // Передаем исходный объект и устанавливаем контекст
+            SotrComboBox.ItemsSource = Connect.context.Sotrudniki.ToList();
             if (c == null)
-                c = new RavocheeVremya();
+                c = new RavocheeVremya() { Data = DateTime.Now };
             DataContext = k = c;
-
-            // Устанавливаем начальное значение статуса
             StatusComboBox.SelectedItem = k.Status ?? default(Status);
 
         }
@@ -137,5 +134,6 @@ namespace PractikaaProizv
                 }
             }
         }
+
     }
 }

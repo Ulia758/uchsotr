@@ -15,10 +15,11 @@ namespace PractikaaProizv
     public partial class Otpuska
     {
         public int IdOtpuska { get; set; }
-        public Nullable<int> IdSotr { get; set; }
+        public int IdSotr { get; set; }
         public Nullable<System.DateTime> DataNachalaOtpuska { get; set; }
         public Nullable<System.DateTime> DataOkonchaniyaOtpuska { get; set; }
     
         public virtual Sotrudniki Sotrudniki { get; set; }
+        public virtual Sotrudniki Sotrudniki1 { get; set; }
     }
 }

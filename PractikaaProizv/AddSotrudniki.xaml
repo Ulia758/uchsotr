@@ -3,11 +3,18 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:PractikaaProizv"
+      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+      xmlns:extToolkit="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
+      xmlns:local="clr-namespace:PractikaaProizv" 
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="700" d:DesignWidth="800" FontSize="16" 
       Title="AddSotrudniki">
-    
+    <Page.Resources>
+        <x:Array x:Key="GenderList" Type="{x:Type sys:String}">
+            <sys:String>Мужской</sys:String>
+            <sys:String>Женский</sys:String>
+        </x:Array>
+    </Page.Resources>
     <Grid Background="#FFF8F6F9">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -22,21 +29,41 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Text="Фамилия:" FontSize="18" FontStyle="Italic" FontWeight="Regular" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
-            <TextBox Text="{Binding Familia}" FontSize="18" Height="30" Background="White" Foreground="#DD000000" Width="300" Grid.Row="0" Grid.Column="1" Margin="10"/>
-            <TextBlock Text="Имя:" FontSize="18" FontStyle="Italic" FontWeight="Regular" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
-            <TextBox Text="{Binding Imya}" FontSize="18" Height="30" Background="White" Foreground="#DD000000" Width="300" Grid.Row="1" Grid.Column="1" Margin="10"/>
-            <TextBlock Text="Id должности:" FontSize="18" FontStyle="Italic" FontWeight="Regular" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center"/>
-            <TextBox Text="{Binding IdDolgnost}" FontSize="18" Height="30" Background="White" Foreground="#DD000000" Width="300" Grid.Row="2" Grid.Column="1" Margin="10"/>
-            <TextBlock Text="Дата приёма:" FontSize="18" FontStyle="Italic" FontWeight="Regular" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center"/>
-            <DatePicker SelectedDate="{Binding DataPriem, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, StringFormat={}{0:dd.MM.yyyy}}" FontSize="18" Height="30" Grid.Row="3" Background="White" Foreground="#DD000000" Width="300" Grid.Column="1" Margin="10"/>
+            <TextBlock Text="Фамилия:" FontStyle="Italic" FontWeight="Regular" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Familia}" Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="0" Grid.Column="1" Margin="10"/>
+            <TextBlock Text="Имя:"  FontStyle="Italic" FontWeight="Regular" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Imya}"  Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="1" Grid.Column="1" Margin="10"/>
+            <TextBlock Text="Отчество:" FontStyle="Italic" FontWeight="Regular" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Otchestvo}" Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="2" Grid.Column="1" Margin="10"/>
+            <TextBlock Text="Адрес:" FontStyle="Italic" FontWeight="Regular" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Adress}" Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="3" Grid.Column="1" Margin="10"/>
+            <TextBlock Text="Паспорт:" FontStyle="Italic" FontWeight="Regular" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Passport}" Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="4" Grid.Column="1" Margin="10"/>
+            <TextBlock Text="Телефон:"  FontStyle="Italic" FontWeight="Regular" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Phone}"  Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="5" Grid.Column="1" Margin="10"/>
+            <TextBlock Text="Пол:" FontStyle="Italic" FontWeight="Regular" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center"/>
+            <ComboBox ItemsSource="{StaticResource GenderList}" SelectedItem="{Binding Gender, Mode=TwoWay}" DisplayMemberPath="." Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="6" Grid.Column="1" Margin="10"/>
+            <TextBlock Text="Инвалидность:" FontStyle="Italic" FontWeight="Regular" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Invalidnost}" Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="7" Grid.Column="1" Margin="10"/>
+            <TextBlock Text="Образование:" FontStyle="Italic" FontWeight="Regular" Grid.Row="8" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Education}" Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="8" Grid.Column="1" Margin="10"/>
+            <TextBlock Text="Должность:" FontStyle="Italic" FontWeight="Regular" Grid.Row="9" Grid.Column="0" VerticalAlignment="Center"/>
+            <ComboBox x:Name="DolgComboBox"  DisplayMemberPath="Nazvanie" SelectedItem="{Binding Dolgnosti}" Height="30" Background="White" Foreground="#DD000000" Width="400" Grid.Row="9" Grid.Column="1" Margin="10"/>
+            
         </Grid>
-        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" Margin="10">
+        <StackPanel Orientation="Horizontal" Grid.Row="11" HorizontalAlignment="Center" Margin="10">
             <Button x:Name="Save" Content="Сохранить" FontSize="16"  Margin="5" Height="30" Width="150" Background="#FFE4E2FF" Foreground="#DD000000" Click="Save_Click"/>
             <Button x:Name="Back" Content="Назад" FontSize="16"  Margin="5" Height="30" Width="150" Background="#FFE4E2FF" Foreground="#DD000000" Click="Back_Click"/>
         </StackPanel>

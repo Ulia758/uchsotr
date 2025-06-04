@@ -23,6 +23,7 @@ namespace PractikaaProizv {
         public AddOtpuska(Otpuska c)
         {
             InitializeComponent();
+            SotrComboBox.ItemsSource = Connect.context.Sotrudniki.ToList();
             if (c == null)
                 c = new Otpuska();
             DataContext = k = c;

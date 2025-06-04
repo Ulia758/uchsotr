@@ -8,13 +8,13 @@ namespace PractikaaProizv
 {
     internal class Connect
     {
-        public static Database1Entities1 c;
-        public static Database1Entities1 context
+        public static Database1Entities c;
+        public static Database1Entities context
         {
             get
             {
                 if (c == null)
-                    c = new Database1Entities1();
+                    c = new Database1Entities();
                 return c;
             }
         }

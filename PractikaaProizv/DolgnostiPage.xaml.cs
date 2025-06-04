@@ -32,7 +32,7 @@ namespace PractikaaProizv
         {
             var delClients = DolgnostiDG.SelectedItems.Cast<Dolgnosti>().ToList();
             foreach (var delClient in delClients)
-                if (Connect.context.Dolgnosti.Any(x => x.OtdelId == delClient.OtdelId))
+                if (Connect.context.Sotrudniki.Any(x => x.IdDolgnost == delClient.IdDolgnost) || Connect.context.SchtatnoeRaspisanie.Any(x => x.IdDolgnost == delClient.IdDolgnost))
                 {
                     MessageBox.Show("Данные используются в другой таблице", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;

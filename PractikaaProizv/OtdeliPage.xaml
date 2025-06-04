@@ -20,7 +20,6 @@
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Код отдела" Binding="{Binding IdOtdel}" Width="100"/>
                 <DataGridTextColumn Header="Название" Binding="{Binding Nazvanie}" Width="200"/>
-                <DataGridTextColumn Header="Руководитель" Binding="{Binding Rukovoditel}" Width="200"/>
                 <DataGridTemplateColumn Header="Действия" MinWidth="100">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>

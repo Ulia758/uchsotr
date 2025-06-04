@@ -4,18 +4,30 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="e2dc068f42e84a939706c468a8c2bcfa" Name="Diagram1" ZoomLevel="64">
-        <EntityTypeShape EntityType="Database1Model.Dolgnosti" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Otdeli" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Otpuska" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.RavocheeVremya" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Sotrudniki" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+      <Diagram DiagramId="11c5ced7cffc4fbabb7b19e5da87d8ef" Name="Diagram1">
+        <EntityTypeShape EntityType="Database1Model.Dolgnosti" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Otdeli" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Otpuska" Width="1.5" PointX="7.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.PovishemieKvalific" Width="1.5" PointX="7.5" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.RavocheeVremya" Width="1.5" PointX="10.5" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.SchtatnoeRaspisanie" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Sotrudniki" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Status" Width="1.5" PointX="8.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Uvolnenie" Width="1.5" PointX="7.5" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Zachislenie" Width="1.5" PointX="7.5" PointY="18.5" IsExpanded="true" />
         <AssociationConnector Association="Database1Model.FK__Dolgnosti__Otdel__14270015" ManuallyRouted="false" />
-        <AssociationConnector Association="Database1Model.FK__Sotrudnik__IdDol__1332DBDC" ManuallyRouted="false" />
-        <AssociationConnector Association="Database1Model.FK__Otpuska__IdSotr__0B91BA14" ManuallyRouted="false" />
-        <AssociationConnector Association="Database1Model.FK__RavocheeV__IdSot__29221CFB" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="Database1Model.Status" Width="1.5" PointX="4" PointY="5.875" />
-        <AssociationConnector Association="Database1Model.FK__RavocheeV__IdSta__3F115E1A" />
+        <AssociationConnector Association="Database1Model.FK__Schtatnoe__IdDol__318258D2" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Sotrudnik__IdDol__7849DB76" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Otpuska__IdSotr__5EDF0F2E" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_otp_id" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Povishemi__IdSot__60C757A0" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_povish_id" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__RavocheeV__IdSta__671F4F74" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_raboch_vrem" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Uvolnenie__IdSot__62AFA012" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Zachislen__IdSot__6497E884" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_uvoln_id" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.fk_zach_id" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

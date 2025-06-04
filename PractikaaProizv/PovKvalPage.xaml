@@ -1,0 +1,43 @@
+﻿<Page x:Class="PractikaaProizv.PovKvalPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PractikaaProizv"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PovKvalPage">
+
+    <Grid Background="#FFE4E2FF" Loaded="Grid_Loaded">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="10" Grid.Row="0">
+            <TextBlock Text="Повышение квалификации" FontSize="24" FontWeight="Bold" Foreground="Black" Margin="0,0,10,0"/>
+        </StackPanel>
+        <DataGrid x:Name="KvalifDG" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" CanUserSortColumns="True" SelectionMode="Single" SelectedItem="{Binding Path=SelectedAttendance, Mode=TwoWay}"
+           AlternatingRowBackground="SeaShell" RowBackground="WhiteSmoke" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Дата повышения" Binding="{Binding DatePov, StringFormat=\{0:dd.MM.yyyy\}}" Width="200"/>
+                <DataGridTextColumn Header="Квалификация" Binding="{Binding Kvalifkaciya}" Width="150"/>
+                <DataGridTextColumn Header="Курс" Binding="{Binding Kurs}" Width="150"/>
+                <DataGridTextColumn Header="Сотрудник" Binding="{Binding Sotrudniki.Familia}" Width="150"/>
+                <DataGridTextColumn Header="Сертификат" Binding="{Binding Sertificat}" Width="150"/>
+                <DataGridTemplateColumn Header="Действия" MinWidth="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Редактировать" CommandParameter="{Binding}" Click="EditBtn_Click" Background="#FFBCC9FC" Foreground="#DD000000" Margin="5"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,50,10,0">
+            <TextBox Name="Poisk" Text="Поиск по курсу" Height="30" Width="200" Margin="10" TextChanged="Poisk_TextChanged"/>
+            <Button x:Name="Add" Content="Добавить" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="Add_Click"/>
+            <Button x:Name="Delete" Content="Удалить" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="Delete_Click"/>
+            <Button x:Name="Nazad" Content="Назад" Margin="5" Height="30" Width="150" Background="#FFBCC9FC" Foreground="#DD000000" Click="Nazad_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

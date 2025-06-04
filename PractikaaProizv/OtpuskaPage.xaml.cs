@@ -12,7 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+
 using Excel = Microsoft.Office.Interop.Excel;
+using System.Windows.Forms;
 namespace PractikaaProizv {
     /// <summary>
     /// Логика взаимодействия для OtpuskaPage.xaml
@@ -29,12 +32,12 @@ namespace PractikaaProizv {
         }
         private void EditBtn_Click(object sender, RoutedEventArgs e)
         {
-            Nav.MainFrame.Navigate(new AddOtpuska((sender as Button).DataContext as Otpuska));
+            Nav.MainFrame.Navigate(new AddOtpuska((sender as System.Windows.Controls.Button).DataContext as Otpuska));
         }
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
             var delClients = OtpuskDG.SelectedItems.Cast<Otpuska>().ToList();
-            if (MessageBox.Show($"Удалить{delClients.Count} записей", "Удаление", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            if (System.Windows.MessageBox.Show($"Удалить{delClients.Count} записей", "Удаление", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
                 Connect.context.Otpuska.RemoveRange(delClients);
             try
             {
@@ -43,24 +46,24 @@ namespace PractikaaProizv {
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message.ToString(), "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                System.Windows.MessageBox.Show(ex.Message.ToString(), "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
         private void Otchet_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                Type excelType = Type.GetTypeFromProgID("Excel.Application");
-                dynamic excelApp = Activator.CreateInstance(excelType);
-                Excel.Application app = new Excel.Application()
+                Excel.Application app = new Excel.Application
                 {
                     Visible = true,
                     SheetsInNewWorkbook = 1
                 };
+
                 Excel.Workbook workbook = app.Workbooks.Add(Type.Missing);
                 app.DisplayAlerts = false;
                 Excel.Worksheet sheet = (Excel.Worksheet)workbook.Worksheets.Item[1];
                 sheet.Name = "Отчеты об отпусках";
+
                 sheet.Cells[1, 1] = "Код отпуска";
                 sheet.Cells[1, 2] = "ФИО сотрудника";
                 sheet.Cells[1, 3] = "Начало отпуска";
@@ -71,45 +74,51 @@ namespace PractikaaProizv {
                 sheet.Cells[1, 1].ColumnWidth = 10;
                 int currentRow = 2;
                 var otpuski = Connect.context.Otpuska
-                          .Select(x => new
-                          {
-                              IdOtpuska = x.IdOtpuska,
-                              SotrudnikId = x.IdSotr,
-                              DataNachala = x.DataNachalaOtpuska,
-                              DataOkonchaniya = x.DataOkonchaniyaOtpuska
-                          })
-                          .OrderBy(x => x.SotrudnikId);
+                      .Select(x => new
+                      {
+                          IdOtpuska = x.IdOtpuska,
+                          SotrudnikId = x.IdSotr,
+                          DataNachala = x.DataNachalaOtpuska,
+                          DataOkonchaniya = x.DataOkonchaniyaOtpuska
+                      })
+                      .OrderBy(x => x.SotrudnikId);
+
                 var result = otpuski.AsEnumerable().Select(x => new
                 {
                     IdOtpuska = x.IdOtpuska,
-                    FIO = $"{Connect.context.Sotrudniki.Find(x.SotrudnikId)?.Familia ?? ""} {Connect.context.Sotrudniki.Find(x.SotrudnikId)?.Imya ?? ""} ".Trim(),
+                    FIO = $"{Connect.context.Sotrudniki.Find(x.SotrudnikId)?.Familia ?? ""} {Connect.context.Sotrudniki.Find(x.SotrudnikId)?.Imya ?? ""} {Connect.context.Sotrudniki.Find(x.SotrudnikId)?.Otchestvo ?? ""}".Trim(),
                     DataNachala = x.DataNachala,
                     DataOkonchaniya = x.DataOkonchaniya
                 });
                 foreach (var item in result)
                 {
                     TimeSpan duration = item.DataOkonchaniya.Value.Subtract(item.DataNachala.Value).Add(TimeSpan.FromDays(1));
-
                     sheet.Cells[currentRow, 1] = item.IdOtpuska;
                     sheet.Cells[currentRow, 2] = item.FIO;
                     sheet.Cells[currentRow, 3] = item.DataNachala.HasValue ? item.DataNachala.Value.ToShortDateString() : "";
                     sheet.Cells[currentRow, 4] = item.DataOkonchaniya.HasValue ? item.DataOkonchaniya.Value.ToShortDateString() : "";
                     sheet.Cells[currentRow, 5] = duration.Days;
-
                     currentRow++;
                 }
-                string filePath = @"C:\Users\Public\Downloads\Otchi_ob_otpuskah.xlsx";
-                try
+                if (System.Windows.MessageBox.Show("Хотите сохранить отчет?", "Сохранение отчета", System.Windows.MessageBoxButton.YesNo) == System.Windows.MessageBoxResult.Yes)
                 {
-                    sheet.SaveAs(filePath);
-                    MessageBox.Show($"Файл успешно сохранён по адресу: {filePath}", "Успех");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Ошибка сохранения файла: {ex.Message}", "Ошибка");
+                    using (var saveDialog = new SaveFileDialog())
+                    {
+                        saveDialog.Filter = "Excel files (*.xlsx)|*.xlsx";
+                        saveDialog.Title = "Сохранить отчет";
+                        saveDialog.FileName = "Отчеты об отпусках.xlsx";
+                        if (saveDialog.ShowDialog() == DialogResult.OK)
+                        {
+                            workbook.SaveAs(saveDialog.FileName);
+                            System.Windows.MessageBox.Show($"Файл успешно сохранён по адресу: {saveDialog.FileName}", "Успех");
+                        }
+                    }
                 }
             }
-            catch { }
+            catch (Exception ex)
+            {
+                System.Windows.MessageBox.Show($"Ошибка при формировании отчета: {ex.Message}", "Ошибка");
+            }
         }
         private void Nazad_Click(object sender, RoutedEventArgs e)
         {

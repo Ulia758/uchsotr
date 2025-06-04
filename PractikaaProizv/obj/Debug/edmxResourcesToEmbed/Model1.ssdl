@@ -6,8 +6,6 @@
     </Key>
     <Property Name="IdDolgnost" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Nazvanie" Type="nvarchar" MaxLength="100" Nullable="false" />
-    <Property Name="Oklad" Type="decimal" Precision="18" Scale="2" Nullable="false" />
-    <Property Name="Opysanie" Type="nvarchar" MaxLength="255" />
     <Property Name="OtdelId" Type="int" />
   </EntityType>
   <EntityType Name="Otdeli">
@@ -16,27 +14,46 @@
     </Key>
     <Property Name="IdOtdel" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Nazvanie" Type="nvarchar" MaxLength="50" />
-    <Property Name="Rukovoditel" Type="nvarchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="Otpuska">
     <Key>
       <PropertyRef Name="IdOtpuska" />
     </Key>
     <Property Name="IdOtpuska" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="IdSotr" Type="int" />
+    <Property Name="IdSotr" Type="int" Nullable="false" />
     <Property Name="DataNachalaOtpuska" Type="date" />
     <Property Name="DataOkonchaniyaOtpuska" Type="date" />
+  </EntityType>
+  <EntityType Name="PovishemieKvalific">
+    <Key>
+      <PropertyRef Name="IdPov" />
+    </Key>
+    <Property Name="IdPov" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DatePov" Type="date" Nullable="false" />
+    <Property Name="Kvalifkaciya" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Kurs" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="IdSotr" Type="int" Nullable="false" />
+    <Property Name="Sertificat" Type="nvarchar(max)" />
   </EntityType>
   <EntityType Name="RavocheeVremya">
     <Key>
       <PropertyRef Name="IdRabocheeVremya" />
     </Key>
     <Property Name="IdRabocheeVremya" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="IdSotr" Type="int" />
+    <Property Name="IdSotr" Type="int" Nullable="false" />
     <Property Name="Data" Type="date" />
-    <Property Name="IdStatus" Type="int" />
+    <Property Name="IdStatus" Type="int" Nullable="false" />
     <Property Name="VremyaHachalaRab" Type="time" Precision="7" />
     <Property Name="VremyaOkonchaniyaRab" Type="time" Precision="7" />
+  </EntityType>
+  <EntityType Name="SchtatnoeRaspisanie">
+    <Key>
+      <PropertyRef Name="IdRasp" />
+    </Key>
+    <Property Name="IdRasp" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdDolgnost" Type="int" Nullable="false" />
+    <Property Name="Oklad" Type="int" Nullable="false" />
+    <Property Name="KolvoStavok" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="Sotrudniki">
     <Key>
@@ -45,8 +62,14 @@
     <Property Name="IdSotr" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Familia" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Imya" Type="nvarchar" MaxLength="50" Nullable="false" />
-    <Property Name="IdDolgnost" Type="int" />
-    <Property Name="DataPriem" Type="date" />
+    <Property Name="Otchestvo" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Adress" Type="nvarchar" MaxLength="500" />
+    <Property Name="Passport" Type="nvarchar" MaxLength="11" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Invalidnost" Type="nvarchar" MaxLength="3" />
+    <Property Name="Education" Type="nvarchar" MaxLength="50" />
+    <Property Name="IdDolgnost" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="Status">
     <Key>
@@ -54,6 +77,23 @@
     </Key>
     <Property Name="IdStatus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="NameSt" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Uvolnenie">
+    <Key>
+      <PropertyRef Name="IdUvoln" />
+    </Key>
+    <Property Name="IdUvoln" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateUvoln" Type="date" Nullable="false" />
+    <Property Name="IdSotr" Type="int" Nullable="false" />
+    <Property Name="Prichina" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Zachislenie">
+    <Key>
+      <PropertyRef Name="IdZachisl" />
+    </Key>
+    <Property Name="IdZachisl" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateZach" Type="date" Nullable="false" />
+    <Property Name="IdSotr" Type="int" Nullable="false" />
   </EntityType>
   <Association Name="FK__Dolgnosti__Otdel__14270015">
     <End Role="Otdeli" Type="Self.Otdeli" Multiplicity="0..1" />
@@ -67,8 +107,8 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Otpuska__IdSotr__0B91BA14">
-    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="0..1" />
+  <Association Name="FK__Otpuska__IdSotr__5EDF0F2E">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1" />
     <End Role="Otpuska" Type="Self.Otpuska" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Sotrudniki">
@@ -79,20 +119,20 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__RavocheeV__IdSot__3C34F16F">
-    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="0..1" />
-    <End Role="RavocheeVremya" Type="Self.RavocheeVremya" Multiplicity="*" />
+  <Association Name="FK__Povishemi__IdSot__60C757A0">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1" />
+    <End Role="PovishemieKvalific" Type="Self.PovishemieKvalific" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Sotrudniki">
         <PropertyRef Name="IdSotr" />
       </Principal>
-      <Dependent Role="RavocheeVremya">
+      <Dependent Role="PovishemieKvalific">
         <PropertyRef Name="IdSotr" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__RavocheeV__IdSta__3F115E1A">
-    <End Role="Status" Type="Self.Status" Multiplicity="0..1" />
+  <Association Name="FK__RavocheeV__IdSta__671F4F74">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
     <End Role="RavocheeVremya" Type="Self.RavocheeVremya" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Status">
@@ -103,8 +143,20 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Sotrudnik__IdDol__1332DBDC">
-    <End Role="Dolgnosti" Type="Self.Dolgnosti" Multiplicity="0..1" />
+  <Association Name="FK__Schtatnoe__IdDol__318258D2">
+    <End Role="Dolgnosti" Type="Self.Dolgnosti" Multiplicity="1" />
+    <End Role="SchtatnoeRaspisanie" Type="Self.SchtatnoeRaspisanie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dolgnosti">
+        <PropertyRef Name="IdDolgnost" />
+      </Principal>
+      <Dependent Role="SchtatnoeRaspisanie">
+        <PropertyRef Name="IdDolgnost" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sotrudnik__IdDol__7849DB76">
+    <End Role="Dolgnosti" Type="Self.Dolgnosti" Multiplicity="1" />
     <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Dolgnosti">
@@ -115,32 +167,162 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK__Uvolnenie__IdSot__62AFA012">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1" />
+    <End Role="Uvolnenie" Type="Self.Uvolnenie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="IdSotr" />
+      </Principal>
+      <Dependent Role="Uvolnenie">
+        <PropertyRef Name="IdSotr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Zachislen__IdSot__6497E884">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1" />
+    <End Role="Zachislenie" Type="Self.Zachislenie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="IdSotr" />
+      </Principal>
+      <Dependent Role="Zachislenie">
+        <PropertyRef Name="IdSotr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_otp_id">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Otpuska" Type="Self.Otpuska" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="IdSotr" />
+      </Principal>
+      <Dependent Role="Otpuska">
+        <PropertyRef Name="IdSotr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_povish_id">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PovishemieKvalific" Type="Self.PovishemieKvalific" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="IdSotr" />
+      </Principal>
+      <Dependent Role="PovishemieKvalific">
+        <PropertyRef Name="IdSotr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_raboch_vrem">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="RavocheeVremya" Type="Self.RavocheeVremya" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="IdSotr" />
+      </Principal>
+      <Dependent Role="RavocheeVremya">
+        <PropertyRef Name="IdSotr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_uvoln_id">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Uvolnenie" Type="Self.Uvolnenie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="IdSotr" />
+      </Principal>
+      <Dependent Role="Uvolnenie">
+        <PropertyRef Name="IdSotr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_zach_id">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Zachislenie" Type="Self.Zachislenie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="IdSotr" />
+      </Principal>
+      <Dependent Role="Zachislenie">
+        <PropertyRef Name="IdSotr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="Хранилище Database1ModelContainer">
     <EntitySet Name="Dolgnosti" EntityType="Self.Dolgnosti" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Otdeli" EntityType="Self.Otdeli" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Otpuska" EntityType="Self.Otpuska" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PovishemieKvalific" EntityType="Self.PovishemieKvalific" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="RavocheeVremya" EntityType="Self.RavocheeVremya" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SchtatnoeRaspisanie" EntityType="Self.SchtatnoeRaspisanie" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Sotrudniki" EntityType="Self.Sotrudniki" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Uvolnenie" EntityType="Self.Uvolnenie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zachislenie" EntityType="Self.Zachislenie" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK__Dolgnosti__Otdel__14270015" Association="Self.FK__Dolgnosti__Otdel__14270015">
       <End Role="Otdeli" EntitySet="Otdeli" />
       <End Role="Dolgnosti" EntitySet="Dolgnosti" />
     </AssociationSet>
-    <AssociationSet Name="FK__Otpuska__IdSotr__0B91BA14" Association="Self.FK__Otpuska__IdSotr__0B91BA14">
+    <AssociationSet Name="FK__Otpuska__IdSotr__5EDF0F2E" Association="Self.FK__Otpuska__IdSotr__5EDF0F2E">
       <End Role="Sotrudniki" EntitySet="Sotrudniki" />
       <End Role="Otpuska" EntitySet="Otpuska" />
     </AssociationSet>
-    <AssociationSet Name="FK__RavocheeV__IdSot__3C34F16F" Association="Self.FK__RavocheeV__IdSot__3C34F16F">
+    <AssociationSet Name="FK__Povishemi__IdSot__60C757A0" Association="Self.FK__Povishemi__IdSot__60C757A0">
       <End Role="Sotrudniki" EntitySet="Sotrudniki" />
-      <End Role="RavocheeVremya" EntitySet="RavocheeVremya" />
+      <End Role="PovishemieKvalific" EntitySet="PovishemieKvalific" />
     </AssociationSet>
-    <AssociationSet Name="FK__RavocheeV__IdSta__3F115E1A" Association="Self.FK__RavocheeV__IdSta__3F115E1A">
+    <AssociationSet Name="FK__RavocheeV__IdSta__671F4F74" Association="Self.FK__RavocheeV__IdSta__671F4F74">
       <End Role="Status" EntitySet="Status" />
       <End Role="RavocheeVremya" EntitySet="RavocheeVremya" />
     </AssociationSet>
-    <AssociationSet Name="FK__Sotrudnik__IdDol__1332DBDC" Association="Self.FK__Sotrudnik__IdDol__1332DBDC">
+    <AssociationSet Name="FK__Schtatnoe__IdDol__318258D2" Association="Self.FK__Schtatnoe__IdDol__318258D2">
+      <End Role="Dolgnosti" EntitySet="Dolgnosti" />
+      <End Role="SchtatnoeRaspisanie" EntitySet="SchtatnoeRaspisanie" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sotrudnik__IdDol__7849DB76" Association="Self.FK__Sotrudnik__IdDol__7849DB76">
       <End Role="Dolgnosti" EntitySet="Dolgnosti" />
       <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Uvolnenie__IdSot__62AFA012" Association="Self.FK__Uvolnenie__IdSot__62AFA012">
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+      <End Role="Uvolnenie" EntitySet="Uvolnenie" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Zachislen__IdSot__6497E884" Association="Self.FK__Zachislen__IdSot__6497E884">
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+      <End Role="Zachislenie" EntitySet="Zachislenie" />
+    </AssociationSet>
+    <AssociationSet Name="fk_otp_id" Association="Self.fk_otp_id">
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+      <End Role="Otpuska" EntitySet="Otpuska" />
+    </AssociationSet>
+    <AssociationSet Name="fk_povish_id" Association="Self.fk_povish_id">
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+      <End Role="PovishemieKvalific" EntitySet="PovishemieKvalific" />
+    </AssociationSet>
+    <AssociationSet Name="fk_raboch_vrem" Association="Self.fk_raboch_vrem">
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+      <End Role="RavocheeVremya" EntitySet="RavocheeVremya" />
+    </AssociationSet>
+    <AssociationSet Name="fk_uvoln_id" Association="Self.fk_uvoln_id">
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+      <End Role="Uvolnenie" EntitySet="Uvolnenie" />
+    </AssociationSet>
+    <AssociationSet Name="fk_zach_id" Association="Self.fk_zach_id">
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+      <End Role="Zachislenie" EntitySet="Zachislenie" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

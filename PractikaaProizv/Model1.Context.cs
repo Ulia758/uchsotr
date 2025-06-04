@@ -13,10 +13,10 @@ namespace PractikaaProizv
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Database1Entities1 : DbContext
+    public partial class Database1Entities : DbContext
     {
-        public Database1Entities1()
-            : base("name=Database1Entities1")
+        public Database1Entities()
+            : base("name=Database1Entities")
         {
         }
     
@@ -28,8 +28,12 @@ namespace PractikaaProizv
         public virtual DbSet<Dolgnosti> Dolgnosti { get; set; }
         public virtual DbSet<Otdeli> Otdeli { get; set; }
         public virtual DbSet<Otpuska> Otpuska { get; set; }
+        public virtual DbSet<PovishemieKvalific> PovishemieKvalific { get; set; }
         public virtual DbSet<RavocheeVremya> RavocheeVremya { get; set; }
+        public virtual DbSet<SchtatnoeRaspisanie> SchtatnoeRaspisanie { get; set; }
         public virtual DbSet<Sotrudniki> Sotrudniki { get; set; }
         public virtual DbSet<Status> Status { get; set; }
+        public virtual DbSet<Uvolnenie> Uvolnenie { get; set; }
+        public virtual DbSet<Zachislenie> Zachislenie { get; set; }
     }
 }

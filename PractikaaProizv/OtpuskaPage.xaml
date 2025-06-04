@@ -13,7 +13,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Margin="10" Grid.Row="0">
-            <TextBlock Text="Отпуски" FontSize="24" FontWeight="Bold" Foreground="Black" Margin="0,0,10,0"/>
+            <TextBlock Text="Отпуск" FontSize="24" FontWeight="Bold" Foreground="Black" Margin="0,0,10,0"/>
         </StackPanel>
         <DataGrid x:Name="OtpuskDG" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" CanUserSortColumns="True" SelectionMode="Single" SelectedItem="{Binding Path=SelectedOtpusk, Mode=TwoWay}"
               AlternatingRowBackground="SeaShell" RowBackground="WhiteSmoke" Margin="10">

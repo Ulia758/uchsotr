@@ -7,25 +7,56 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MainPage">
-    <Grid Background= "#FFF9F7FF">
+    <Grid Background="#FFF9F7FF">
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Учёт сотрудников" Grid.Row="0" FontSize="30" FontWeight="Bold" Margin="0 8 0 10" HorizontalAlignment="Center" Foreground="Black"/>
-        <Button Name="SotrudnikiBtn" Grid.Row="1" Width="400" Height="44" Content="Сотрудники"  Foreground="#DD000000" Cursor="Hand"  FontSize="22" Click="SotrudnikiBtn_Click" Background="#FFCEA9F1"/>
-        <Button Name="DolgnostiBtn" Grid.Row="2" Width="400" Height="44" Content="Должности"  Background="#FFCEA9F1" Foreground="#DD000000" FontSize="22" Click="DolgnostiBtn_Click" />
-        <Button Name="PosechaemostBtn" Grid.Row="3" Width="400" Height="44" Content="Посещаемость"  Background="#FFCEA9F1" Foreground="#DD000000" FontSize="22" Click="PosechaemostBtn_Click" />
-        <Button Name="OtdeliBtn" Grid.Row="4" Width="400" Height="44" Content="Отделы" Background="#FFCEA9F1" Foreground="#DD000000" Cursor="Hand" FontSize="22" Click="OtdeliBtn_Click" />
-        <Button Name="OtpuskaBtn" Grid.Row="5" Width="400" Height="44" Content="Отпуска"  Background="#FFCEA9F1" Foreground="#DD000000" FontSize="22" Click="OtpuskaBtn_Click" />
-        <Button Name="OtchetiBtn" Grid.Row="6" Width="400" Height="44" Content="Отчёты"  Background="#FFCEA9F1" Foreground="#DD000000" FontSize="22" Click="OtchetiBtn_Click"  />
-        <Button Name="Exit" Content="Выход" Grid.Row="7" Width="400" Height="44" Background="#FFCEA9F1" Foreground="#DD000000" FontSize="22" Click="Exit_Click"/>
-        <Image  Grid.Row="0" Source="/45721f645eae1eb788fb070e9c9ef619.png" Margin="0 0 10 22" HorizontalAlignment="Right" Width="130" Height="34" Stretch="Uniform" />
+        <!-- Верхняя панель -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+            <TextBlock Text="Учёт сотрудников" FontSize="30" FontWeight="Bold" Foreground="Black"/>
+            <Image Source="/45721f645eae1eb788fb070e9c9ef619.png" Margin="30 0 0 0" Width="130" Height="34" Stretch="Uniform"/>
+        </StackPanel>
+        <!-- Основная область -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical" Margin="10">
+                <!-- Управление сотрудниками -->
+                <Expander Header="Управление сотрудниками" IsExpanded="True" Margin="0 10 0 0">
+                    <StackPanel>
+                        <Button Name="SotrudnikiBtn" Content="Сотрудники" Margin="0 0 0 20" Width="400" Height="44" FontSize="22" Background="#FFCEA9F1" Foreground="#DD000000" Click="SotrudnikiBtn_Click"/>
+                    </StackPanel>
+                </Expander>
+
+                <!-- История сотрудников -->
+                <Expander Header="История сотрудников" IsExpanded="False" Margin="0 10 0 0">
+                    <StackPanel>
+                        <Button Name="ZachislenieBtn" Content="Зачисление" Margin="0 0 0 20" Width="400" Height="44" FontSize="22" Background="#FFCEA9F1" Foreground="#DD000000" Click="ZachislenieBtn_Click"/>
+                        <Button Name="UvolnenieBtn" Content="Увольнение" Margin="0 0 0 20" Width="400" Height="44" FontSize="22" Background="#FFCEA9F1" Foreground="#DD000000" Click="UvolnenieBtn_Click"/>
+                    </StackPanel>
+                </Expander>
+
+                <!-- Организация труда -->
+                <Expander Header="Организация труда" IsExpanded="False" Margin="0 10 0 0">
+                    <StackPanel>
+                        <Button Name="PosechaemostBtn" Content="Посещаемость" Margin="0 0 0 20" Width="400" Height="44" FontSize="22" Background="#FFCEA9F1" Foreground="#DD000000" Click="PosechaemostBtn_Click"/>
+                        <Button Name="RaspisanieBtn" Content="Штатное расписание" Margin="0 0 0 20" Width="400" Height="44" FontSize="22" Background="#FFCEA9F1" Foreground="#DD000000" Click="RaspisanieBtn_Click"/>
+                        <Button Name="KvalificaciyaBtn" Content="Повышение квалификации" Margin="0 0 0 20" Width="400" Height="44" FontSize="22" Background="#FFCEA9F1" Foreground="#DD000000" Click="KvalificaciyaBtn_Click"/>
+                        <Button Name="OtpuskaBtn" Content="Отпуск" Margin="0 0 0 20" Width="400" Height="44" FontSize="22" Background="#FFCEA9F1" Foreground="#DD000000" Click="OtpuskaBtn_Click"/>
+                    </StackPanel>
+                </Expander>
+
+                <!-- Дополнительная информация -->
+                <Expander Header="Дополнительная информация" IsExpanded="False" Margin="0 10 0 0">
+                    <StackPanel>
+                        <Button Name="DolgnostiBtn" Content="Должности" Margin="0 0 0 20" Width="400" Height="44" FontSize="22" Background="#FFCEA9F1" Foreground="#DD000000" Click="DolgnostiBtn_Click"/>
+                        <Button Name="OtdeliBtn" Content="Отделы" Margin="0 0 0 20" Width="400" Height="44" FontSize="22" Background="#FFCEA9F1" Foreground="#DD000000" Click="OtdeliBtn_Click"/>
+                    </StackPanel>
+                </Expander>
+
+                <!-- Кнопки отчётов и выхода -->
+                <Button Name="OtchetiBtn" Content="Отчёты" Margin="0 0 0 20" Width="400" Height="44" FontSize="22" Background="#FFCEA9F1" Foreground="#DD000000" Click="OtchetiBtn_Click"/>
+                <Button Name="Exit" Content="Выход" Width="400" Height="44" Background="#FFCEA9F1" Foreground="#DD000000" FontSize="22" Click="Exit_Click" Margin="0 20 0 0"/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

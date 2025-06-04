@@ -15,13 +15,13 @@ namespace PractikaaProizv
     public partial class RavocheeVremya
     {
         public int IdRabocheeVremya { get; set; }
-        public Nullable<int> IdSotr { get; set; }
+        public int IdSotr { get; set; }
         public Nullable<System.DateTime> Data { get; set; }
+        public int IdStatus { get; set; }
         public Nullable<System.TimeSpan> VremyaHachalaRab { get; set; }
         public Nullable<System.TimeSpan> VremyaOkonchaniyaRab { get; set; }
-        public Nullable<int> IdStatus { get; set; }
     
-        public virtual Sotrudniki Sotrudniki { get; set; }
         public virtual Status Status { get; set; }
+        public virtual Sotrudniki Sotrudniki { get; set; }
     }
 }
